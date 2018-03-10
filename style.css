@@ -1,0 +1,10 @@
+button, div, form, input {
+      margin: 10px;
+      font-weight: bold;
+      font-size: 1em;
+    }
+body {
+    background-color: rgb(172, 154, 154);
+    text-align: center; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

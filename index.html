@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>TV Show Gifs</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+</head>
+
+<body>
+    <div class="container">
+        <h1>TV Shows</h1>
+        <!--Buttons will be located here -->
+        <div id="buttonsView"></div>
+        <!--Input to add new tv show gifs -->
+        <form id="tv-form">
+            <label for="tv-input">Add a TV Show</label>
+            <input type="text" id="tv-input">
+            <br>
+            <!-- Button triggers new movie to be added -->
+            <input id="add-tv" type="submit" value="Submit">
+        </form>
+        <!--Where the Gifs of a specified tv show will show up -->
+        <div id="tv-view"></div>
+    </div>
+    <script type="text/javascript" src="gif.js"></script>
+</body>
+
+</html>
